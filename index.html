@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="/submit_form.ph" method="post">
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="user_name"><br><br>
+<label for="email">Email:</label><br>
+<input type="text" id="email" name="user_email"><br><br>
+<label for="password">password:</label><br>
+<input type="password" id="password" name="user_password">
+
+<p>Gender:</p>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br><br>
+
+<p>hobbies:</p>
+<input type="checkbox" id="reading" name="hobbies" value="reading">
+<label for="reading">Reading</label><br>
+<input type="checkbox" id="coding" name="hobbies" value="coding">
+<label for="coding">coding</label><br><br>
+
+<label for="country">country:</label>
+<select id="country" name="country">
+    <option value="UG">UG</option> 
+    <option value="USA">USA</option>
+    <option value="DRC">DRC</option>
+</select><br><br>
+<label for="date">date</label><br>
+<input type="date"><br><br>
+<label for="time">time</label><br>
+<input type="time"><br><br>
+
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+
+<p>my music</p>
+<audio controls>
+    <source src="C:\Users\user\Music\That_s_Why_You_Go_Away_-_Michael_Learns_To_Rock__Lyrics_(128k).m4a">
+</audio><br><br>
+<p>my video</p>
+<video controls width="300" height="250">
+    <source src="C:\Users\user\Videos\Captures\13a21a4c8bc472f13d886fa6d47df255.mp4">
+</video>
+  </form>  
+</body>
+</html>
